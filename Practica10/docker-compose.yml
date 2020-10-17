@@ -1,0 +1,35 @@
+version: '3'
+services: 
+    cliente:
+        build: 
+            context: ./Cliente/
+            dockerfile: Dockerfile
+        container_name: Cliente
+        restart: always
+        ports: 
+            - "8000:8000"
+    restaurante:
+            build: 
+                context: ./Restaurante/
+                dockerfile: Dockerfile
+            container_name: Restaurante
+            restart: always
+            ports: 
+                - "8001:8001"
+    repartidor:
+        build: 
+            context: ./Repartidor/
+            dockerfile: Dockerfile
+        container_name: Repartidor
+        restart: always
+        ports: 
+            - "8002:8002"
+    orquestador:
+        build: 
+            context: ./Orquestador/
+            dockerfile: Dockerfile
+        container_name: Orquestador
+        restart: always
+        ports: 
+            - "8003:8003"
+        
