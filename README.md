@@ -1,6 +1,6 @@
-# Practica10
-* Utilizar la práctica # 7 como base.
-* Crear un repositorio nuevo (base DevOps) que sea capaz de utilizar el repositorio de dicha práctica para construir (si hace falta) y desplegar el ambiente completo (base de datos y aplicación) y que esta práctica 7 corra sobre Docker.
+# Practica11
+* Utilizar la práctica anterior como base
+* Incorporar un proxy inverso para que todos los servicios queden trabajando bajo el puerto 80, utilizando distintas carpetas del proxy.
 
 ## Requerimientos
 * instalar nodejs
@@ -15,7 +15,7 @@
 
 ## video
 
-https://drive.google.com/file/d/1NIz8WDHrOPpH6aITa852s2OxMJB8qWR6/view?usp=sharing
+https://drive.google.com/file/d/1fMVvNXfYh3kICV7GLO8cF3QRCwdtcJZE/view?usp=sharing
 
 ## Autora
 
